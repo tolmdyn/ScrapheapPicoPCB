@@ -1,4 +1,4 @@
-27532420021310772
+27534212706236592
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -109101,3 +109101,10 @@ Varistor VF
 0
 2
 2
+Waveshare-TTL-To-RS485-C-Kicad
+Waveshare-RS485-TTL
+
+
+0
+7
+7
