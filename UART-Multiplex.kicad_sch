@@ -375,7 +375,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector_Generic:Conn_01x01"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -391,8 +391,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -417,7 +417,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -444,10 +444,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
+			(symbol "Conn_01x01_1_1"
 				(rectangle
 					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(end 1.27 -1.27)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -467,17 +467,6 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
@@ -489,195 +478,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2215,7 +2015,7 @@
 	)
 	(global_label "NFC_TX_5"
 		(shape input)
-		(at 68.58 97.79 0)
+		(at 68.58 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2225,7 +2025,7 @@
 		)
 		(uuid "0b62e628-ad86-47e2-b141-e8b29ad83497")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.9219 97.79 0)
+			(at 79.9219 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,46 +2035,24 @@
 			)
 		)
 	)
-	(global_label "MUX_TX"
+	(global_label "GPIO14"
 		(shape input)
-		(at 29.21 52.07 0)
+		(at 97.79 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "0fb1469e-cd64-4d50-84da-61585f84211b")
+		(uuid "1161958e-7001-4c9c-b2d3-1518910c5224")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.6771 52.07 0)
+			(at 88.5647 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S0"
-		(shape input)
-		(at 29.21 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1394ae8e-1006-434b-b748-cd1807905d02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.96 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2325,7 +2103,7 @@
 	)
 	(global_label "NFC_TX_6"
 		(shape input)
-		(at 68.58 100.33 0)
+		(at 68.58 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2335,7 +2113,7 @@
 		)
 		(uuid "21b5889f-abc8-4c69-8043-5da894d28bbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.9219 100.33 0)
+			(at 79.9219 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2169,7 @@
 	)
 	(global_label "NFC_RX_2"
 		(shape input)
-		(at 123.19 85.09 0)
+		(at 123.19 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2401,7 +2179,7 @@
 		)
 		(uuid "2a0c09d4-af2d-43b5-bd85-f21c1824269c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.8343 85.09 0)
+			(at 134.8343 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +2301,7 @@
 	)
 	(global_label "NFC_TX_2"
 		(shape input)
-		(at 68.58 85.09 0)
+		(at 68.58 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2533,7 +2311,7 @@
 		)
 		(uuid "39a49c33-ceac-4b5e-a98c-3a984765f69b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.9219 85.09 0)
+			(at 79.9219 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2631,53 +2409,9 @@
 			)
 		)
 	)
-	(global_label "S1"
-		(shape input)
-		(at 97.79 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "43d27110-d2b2-4281-a055-e49c6b8e6a4b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.04 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S1"
-		(shape input)
-		(at 41.91 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4782d49e-84f3-41b8-9b86-c6d7523de02c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NFC_RX_1"
 		(shape input)
-		(at 123.19 82.55 0)
+		(at 123.19 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2687,7 +2421,7 @@
 		)
 		(uuid "4b89fbd7-c7e8-4300-bcfe-f1c573d2a11d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.8343 82.55 0)
+			(at 134.8343 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,7 +2455,7 @@
 	)
 	(global_label "NFC_RX_5"
 		(shape input)
-		(at 123.19 97.79 0)
+		(at 123.19 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2731,7 +2465,7 @@
 		)
 		(uuid "50812f56-52aa-4675-8344-159dccbfbfd5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.8343 97.79 0)
+			(at 134.8343 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2477,7 @@
 	)
 	(global_label "NFC_RX_0"
 		(shape input)
-		(at 123.19 90.17 0)
+		(at 123.19 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2753,7 +2487,7 @@
 		)
 		(uuid "573f5b7b-80b6-4184-97c5-915d17c985ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.8343 90.17 0)
+			(at 134.8343 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2787,7 +2521,7 @@
 	)
 	(global_label "GPIO14"
 		(shape input)
-		(at 24.13 69.85 180)
+		(at 41.91 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2797,7 +2531,7 @@
 		)
 		(uuid "685668f4-12b4-4870-ad9f-143c5c2aac57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9047 69.85 0)
+			(at 32.6847 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +2543,7 @@
 	)
 	(global_label "GPIO15"
 		(shape input)
-		(at 24.13 72.39 180)
+		(at 41.91 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2819,7 +2553,7 @@
 		)
 		(uuid "698fdf29-d097-43a6-bb74-3fe593520623")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9047 72.39 0)
+			(at 32.6847 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,6 +2576,28 @@
 		(uuid "69b1c745-00da-4f6a-870c-c921fcdc210b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 205.5257 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO13"
+		(shape input)
+		(at 97.79 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71ee2c21-6b3d-4070-bfae-7d6fb4391f5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.5647 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2631,7 @@
 	)
 	(global_label "NFC_TX_0"
 		(shape input)
-		(at 68.58 90.17 0)
+		(at 68.58 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2885,7 +2641,7 @@
 		)
 		(uuid "838f25f1-8c36-4b57-b375-683e180fb425")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.9219 90.17 0)
+			(at 79.9219 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,46 +2651,24 @@
 			)
 		)
 	)
-	(global_label "S0"
-		(shape input)
-		(at 41.91 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ce2aff7-75bf-48c9-969f-14f72bee4605")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.16 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GPIO12"
 		(shape input)
-		(at 24.13 55.88 180)
+		(at 101.6 82.55 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8cf8c374-bdcf-4754-af11-084dbf790977")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9047 55.88 0)
+			(at 101.6 73.3247 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2952,28 +2686,6 @@
 		(uuid "8d85e80c-f6b7-4150-9b15-b8619fe50ff1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 165.1881 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S2"
-		(shape input)
-		(at 41.91 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90b8ab1b-2c88-4fcd-90ed-6e95286c9045")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.16 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +2719,7 @@
 	)
 	(global_label "NFC_TX_7"
 		(shape input)
-		(at 68.58 95.25 0)
+		(at 68.58 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3017,7 +2729,7 @@
 		)
 		(uuid "962884b9-3eb9-4e43-9ebe-ae4d12a75037")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.9219 95.25 0)
+			(at 79.9219 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +2741,7 @@
 	)
 	(global_label "NFC_RX_3"
 		(shape input)
-		(at 123.19 87.63 0)
+		(at 123.19 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3039,7 +2751,7 @@
 		)
 		(uuid "9ce8cbb1-dcd3-4565-b575-1d9149ee8f79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.8343 87.63 0)
+			(at 134.8343 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +2763,7 @@
 	)
 	(global_label "NFC_RX_6"
 		(shape input)
-		(at 123.19 100.33 0)
+		(at 123.19 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3061,7 +2773,7 @@
 		)
 		(uuid "9fae36a5-7b01-4f9a-b1b5-993b8585e904")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.8343 100.33 0)
+			(at 134.8343 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,68 +2849,24 @@
 			)
 		)
 	)
-	(global_label "MUX_RX"
+	(global_label "GPIO15"
 		(shape input)
-		(at 29.21 55.88 0)
+		(at 97.79 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "a3e763c2-2767-46d7-93fe-6064e4415a0e")
+		(uuid "a7b4d2ec-d362-4aeb-9025-77f00345b938")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.9795 55.88 0)
+			(at 88.5647 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S1"
-		(shape input)
-		(at 29.21 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a974b6cb-107a-46be-a448-2fa8203274ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.96 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "S2"
-		(shape input)
-		(at 29.21 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aac125ce-0edc-422a-9fc2-ce4507a7df27")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3227,7 +2895,7 @@
 	)
 	(global_label "NFC_TX_3"
 		(shape input)
-		(at 68.58 87.63 0)
+		(at 68.58 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3237,7 +2905,7 @@
 		)
 		(uuid "acadb42a-fcc6-49a8-b26a-476498d91b9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.9219 87.63 0)
+			(at 79.9219 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +3159,7 @@
 	)
 	(global_label "GPIO13"
 		(shape input)
-		(at 24.13 67.31 180)
+		(at 41.91 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3501,7 +3169,7 @@
 		)
 		(uuid "c546f3c1-702d-43d1-b81f-232d60f7bed0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9047 67.31 0)
+			(at 32.6847 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,28 +3245,6 @@
 			)
 		)
 	)
-	(global_label "S2"
-		(shape input)
-		(at 97.79 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd7f038e-c214-4239-8ae8-8d1193885812")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.04 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NFC_TX_3"
 		(shape input)
 		(at 217.17 95.25 180)
@@ -3645,7 +3291,7 @@
 	)
 	(global_label "NFC_TX_1"
 		(shape input)
-		(at 68.58 82.55 0)
+		(at 68.58 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3655,7 +3301,7 @@
 		)
 		(uuid "d3056291-ef6f-4cc6-832e-9395bb427aa8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.9219 82.55 0)
+			(at 79.9219 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3667,22 +3313,22 @@
 	)
 	(global_label "GPIO11"
 		(shape input)
-		(at 24.13 52.07 180)
+		(at 45.72 82.55 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d7ba516a-582e-4763-ad6e-600c5867cad8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9047 52.07 0)
+			(at 45.72 73.3247 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3797,28 +3443,6 @@
 			)
 		)
 	)
-	(global_label "S0"
-		(shape input)
-		(at 97.79 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ee534da4-fcc6-4591-8fb2-2acfb798f425")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.04 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "NFC_TX_5"
 		(shape input)
 		(at 251.46 73.66 180)
@@ -3865,7 +3489,7 @@
 	)
 	(global_label "NFC_RX_7"
 		(shape input)
-		(at 123.19 95.25 0)
+		(at 123.19 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3875,7 +3499,7 @@
 		)
 		(uuid "f9dfb772-cc35-4a7a-bdec-4bac5821d79d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.8343 95.25 0)
+			(at 134.8343 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +3608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04c5c32e-12bc-4bc2-b4fc-ce2d78ec98a7")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 144.78 22.86 0)
 			(effects
 				(font
@@ -4035,24 +3659,24 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 181.61 24.13 0)
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 181.61 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0ab362a3-8e42-47f3-bfa2-99b75461799b")
-		(property "Reference" "J13"
-			(at 184.15 22.8599 0)
+		(uuid "17517856-ab22-4151-a006-6d4777e3fb83")
+		(property "Reference" "J26"
+			(at 184.15 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,8 +3684,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TX/RX_CONN"
-			(at 184.15 25.3999 0)
+		(property "Value" "Conn_01x01"
+			(at 184.15 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,8 +3693,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Vertical"
-			(at 181.61 24.13 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +3703,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 24.13 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,28 +3711,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 181.61 24.13 0)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "215cd0ce-ec1a-4753-a9ac-6c405abb7b15")
 		)
 		(pin "1"
-			(uuid "9dde829e-780d-49e3-a9de-b4d05214e60c")
-		)
-		(pin "3"
-			(uuid "793bf755-2c15-4c99-8444-4adc9d4fa026")
+			(uuid "7e0431c5-2d7b-4f4e-af21-c2096ef2ad74")
 		)
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J13")
+					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -4124,7 +3742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225ed0c8-c001-424e-83fd-47310b272495")
-		(property "Reference" "R25"
+		(property "Reference" "R32"
 			(at 231.14 69.8499 0)
 			(effects
 				(font
@@ -4178,7 +3796,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R25")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -4194,7 +3812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "231fe1c8-b16b-4cda-a60f-aef61ecae0cf")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 154.94 26.67 0)
 			(effects
 				(font
@@ -4245,7 +3863,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4261,7 +3879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23afcff2-e139-47d0-aab2-9685364e4a6e")
-		(property "Reference" "R20"
+		(property "Reference" "R27"
 			(at 222.25 69.8499 0)
 			(effects
 				(font
@@ -4315,7 +3933,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R20")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4398,7 +4016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a05f7bb-afc8-4c4e-931a-dd680fd6d5d0")
-		(property "Reference" "J14"
+		(property "Reference" "J17"
 			(at 184.15 34.2899 0)
 			(effects
 				(font
@@ -4458,7 +4076,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J14")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -4526,74 +4144,6 @@
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 26.67 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d4353c0-8b21-448c-980a-1db9699c0c2f")
-		(property "Reference" "NT2"
-			(at 26.67 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 26.67 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 26.67 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 26.67 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88f368e8-11eb-464f-9cea-60e4c1de96ac")
-		)
-		(pin "2"
-			(uuid "c2e30a4a-f16f-4ff6-a12a-fb70f1483308")
-		)
-		(instances
-			(project "ScrapheapPicoPCB"
-				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -4668,74 +4218,6 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 26.67 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33edd58c-69e7-4b16-bd05-f93868c916e8")
-		(property "Reference" "NT4"
-			(at 26.67 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 26.67 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 26.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 26.67 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd63668a-5aff-4980-bafe-6a70a7096fc5")
-		)
-		(pin "2"
-			(uuid "5a6f83e7-8835-476e-9a96-396abc898da3")
-		)
-		(instances
-			(project "ScrapheapPicoPCB"
-				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "NT4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
 		(at 146.05 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4744,7 +4226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c23088e-3774-4b90-be56-ba9b4e89e4c3")
-		(property "Reference" "NT6"
+		(property "Reference" "NT1"
 			(at 146.05 17.78 0)
 			(effects
 				(font
@@ -4796,7 +4278,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "NT6")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -4812,7 +4294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4118338f-ad33-4d2d-b194-3ce013ca924f")
-		(property "Reference" "R23"
+		(property "Reference" "R30"
 			(at 231.14 29.2099 0)
 			(effects
 				(font
@@ -4866,7 +4348,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R23")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -4949,7 +4431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "456795c9-ed12-41dc-a39f-5fa3c00ec056")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 250.19 139.7062 0)
 			(effects
 				(font
@@ -5030,7 +4512,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5046,7 +4528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ce60188-9196-4006-ae28-5f735c7afa26")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 90.17 50.8062 0)
 			(effects
 				(font
@@ -5127,7 +4609,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5210,7 +4692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "501b701b-9b82-48f0-8ece-5c9746ca2a19")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 101.6 50.8062 0)
 			(effects
 				(font
@@ -5291,7 +4773,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -5307,7 +4789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51d2b2a6-f4d7-491c-8113-11d15b564b7f")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 238.76 139.7062 0)
 			(effects
 				(font
@@ -5388,7 +4870,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5593,6 +5075,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 181.61 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f2f511f-f326-49e6-a732-c975bdcd9218")
+		(property "Reference" "J14"
+			(at 184.15 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 184.15 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 181.61 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caad8f23-bc9e-4a62-9f76-6f52e6136df7")
+		)
+		(instances
+			(project "ScrapheapPicoPCB"
+				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC4051")
 		(at 113.03 90.17 0)
 		(unit 1)
@@ -5602,7 +5151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e5a1b5-5f1f-420f-814b-78ea5318c5a3")
-		(property "Reference" "U8"
+		(property "Reference" "U7"
 			(at 115.1733 74.93 0)
 			(effects
 				(font
@@ -5698,7 +5247,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "U8")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -5779,7 +5328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b5898b-b92c-44d1-8561-dd08edc96826")
-		(property "Reference" "R24"
+		(property "Reference" "R31"
 			(at 231.14 49.5299 0)
 			(effects
 				(font
@@ -5833,7 +5382,74 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R24")
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 181.61 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cc8aeb4-3a5c-45c1-a571-59889cbcc727")
+		(property "Reference" "J23"
+			(at 184.15 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 184.15 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6656de2e-ff9a-4d70-bf71-f39126a0eed4")
+		)
+		(instances
+			(project "ScrapheapPicoPCB"
+				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -5914,7 +5530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ef0ae03-bbcc-4459-9a04-ee94a7028ae6")
-		(property "Reference" "J16"
+		(property "Reference" "J19"
 			(at 184.15 57.1499 0)
 			(effects
 				(font
@@ -5974,7 +5590,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J16")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -6057,7 +5673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84fcd907-03ca-439b-996a-8bcff9f234a1")
-		(property "Reference" "NT7"
+		(property "Reference" "NT2"
 			(at 146.05 21.59 0)
 			(effects
 				(font
@@ -6101,15 +5717,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "beb38808-e727-4457-a65b-e8e9a6074018")
+			(uuid "beb38808-e727-4457-a65b-e8e9a6074019")
 		)
 		(pin "2"
-			(uuid "74d4325b-3c65-43c4-a6ec-33d52989ebf3")
+			(uuid "74d4325b-3c65-43c4-a6ec-33d52989ebf4")
 		)
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "NT7")
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -6192,7 +5808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e0610d3-0361-4596-9edc-70b96048fa46")
-		(property "Reference" "J18"
+		(property "Reference" "J21"
 			(at 184.15 80.0099 0)
 			(effects
 				(font
@@ -6252,7 +5868,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J18")
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -6268,7 +5884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e6a911e-430b-4837-ac4f-e96e563574d1")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 186.69 139.7062 0)
 			(effects
 				(font
@@ -6349,75 +5965,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 26.67 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e974ccb-3798-4f0a-833d-9e1cf213f66b")
-		(property "Reference" "NT3"
-			(at 26.67 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 26.67 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 26.67 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 26.67 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88f368e8-11eb-464f-9cea-60e4c1de96ac")
-		)
-		(pin "2"
-			(uuid "c2e30a4a-f16f-4ff6-a12a-fb70f1483308")
-		)
-		(instances
-			(project "ScrapheapPicoPCB"
-				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "NT3")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6500,7 +6048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d0cf9fe-1ff1-45bc-a65e-2029b73c7a79")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 196.85 139.7062 0)
 			(effects
 				(font
@@ -6581,7 +6129,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -6597,7 +6145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d737c68-d592-407d-add2-a9842d8931cc")
-		(property "Reference" "J17"
+		(property "Reference" "J20"
 			(at 184.15 68.5799 0)
 			(effects
 				(font
@@ -6657,7 +6205,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J17")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -6673,7 +6221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6899e90-e4fa-453c-83fd-b590a3f47e0c")
-		(property "Reference" "R22"
+		(property "Reference" "R29"
 			(at 222.25 110.4899 0)
 			(effects
 				(font
@@ -6727,7 +6275,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R22")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6743,7 +6291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acc2cf75-8775-45a4-930d-316cb2febc66")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 228.6 139.7062 0)
 			(effects
 				(font
@@ -6824,75 +6372,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 26.67 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0a53e40-fde2-4e44-9890-8cdfd7447c76")
-		(property "Reference" "NT5"
-			(at 26.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 26.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 26.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 26.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd63668a-5aff-4980-bafe-6a70a7096fc5")
-		)
-		(pin "2"
-			(uuid "5a6f83e7-8835-476e-9a96-396abc898da3")
-		)
-		(instances
-			(project "ScrapheapPicoPCB"
-				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "NT5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6908,7 +6388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4edd4b3-569a-4140-aef4-ad1b5776d1e2")
-		(property "Reference" "J15"
+		(property "Reference" "J18"
 			(at 184.15 45.7199 0)
 			(effects
 				(font
@@ -6968,145 +6448,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 26.67 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b646e9c3-0e86-4488-ac5b-1143518a9925")
-		(property "Reference" "NT1"
-			(at 26.67 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 26.67 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 26.67 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 2 pins"
-			(at 26.67 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88f368e8-11eb-464f-9cea-60e4c1de96ac")
-		)
-		(pin "2"
-			(uuid "c2e30a4a-f16f-4ff6-a12a-fb70f1483308")
-		)
-		(instances
-			(project "ScrapheapPicoPCB"
-				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "NT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 181.61 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9e4cb8d-0994-4cd0-a09e-b1792c89ef50")
-		(property "Reference" "J25"
-			(at 184.15 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 184.15 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 181.61 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dbdb0ec9-21b7-4afc-9183-96da4c0b236c")
-		)
-		(pin "1"
-			(uuid "3510b95d-12b5-48c2-b6dd-cbd0d7d4c284")
-		)
-		(instances
-			(project "ScrapheapPicoPCB"
-				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J25")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -7122,7 +6464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd81c827-2711-4be3-a388-a5d9a7a3ba22")
-		(property "Reference" "R27"
+		(property "Reference" "R34"
 			(at 231.14 110.4899 0)
 			(effects
 				(font
@@ -7176,7 +6518,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R27")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -7192,7 +6534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be6af99d-3881-4815-ba1c-6c3b0b1d4788")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 78.74 50.8062 0)
 			(effects
 				(font
@@ -7273,7 +6615,74 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C6")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 181.61 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3aa02a7-8b10-4cb3-af78-156e31dc21e5")
+		(property "Reference" "J24"
+			(at 184.15 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 184.15 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "798be340-5c36-4e05-811d-029b0f37d488")
+		)
+		(instances
+			(project "ScrapheapPicoPCB"
+				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -7289,7 +6698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c95a4d-ad32-493d-b426-e746760f78d7")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 207.01 139.7062 0)
 			(effects
 				(font
@@ -7370,7 +6779,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7386,7 +6795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c40a582a-e40b-4412-841c-28e8475ebc9e")
-		(property "Reference" "R31"
+		(property "Reference" "R36"
 			(at 265.43 68.5799 0)
 			(effects
 				(font
@@ -7440,7 +6849,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R31")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -7522,7 +6931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c62ac8a8-10df-43d8-a2fe-6f9f67b26531")
-		(property "Reference" "R19"
+		(property "Reference" "R26"
 			(at 222.25 49.5299 0)
 			(effects
 				(font
@@ -7576,7 +6985,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R19")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7592,7 +7001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6e168f5-ef53-48e8-b9c0-3d82d962147c")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR054"
 			(at 262.89 69.85 0)
 			(effects
 				(font
@@ -7643,7 +7052,74 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR056")
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 181.61 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c846f516-15c4-44dc-af5f-2d5158578210")
+		(property "Reference" "J15"
+			(at 184.15 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 184.15 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 181.61 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2289ed1-6d86-47b0-976b-acfd92d4acf6")
+		)
+		(instances
+			(project "ScrapheapPicoPCB"
+				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -7659,7 +7135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd2ca80e-e3f8-4026-94ac-d5699dee5760")
-		(property "Reference" "R28"
+		(property "Reference" "R35"
 			(at 256.54 68.5799 0)
 			(effects
 				(font
@@ -7713,7 +7189,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R28")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -7729,7 +7205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfb60ede-11f0-4297-b604-c2516d29adaa")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 60.5633 74.93 0)
 			(effects
 				(font
@@ -7825,7 +7301,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -7908,7 +7384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d666c747-bf11-444a-a4ed-3ac10a128b2e")
-		(property "Reference" "J19"
+		(property "Reference" "J22"
 			(at 184.15 91.4399 0)
 			(effects
 				(font
@@ -7968,7 +7444,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J19")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -8118,7 +7594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de91ab16-396d-447d-bbf3-2e9e33468c71")
-		(property "Reference" "R26"
+		(property "Reference" "R33"
 			(at 231.14 90.1699 0)
 			(effects
 				(font
@@ -8172,77 +7648,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 181.61 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e49eafa1-3f52-4cb5-ac39-55718a809db5")
-		(property "Reference" "J24"
-			(at 184.15 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 184.15 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 181.61 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4892aac2-c660-4c59-a137-32182363ccba")
-		)
-		(pin "1"
-			(uuid "bb0deb64-58f1-4bea-9809-0b9d5cb0da2d")
-		)
-		(instances
-			(project "ScrapheapPicoPCB"
-				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J24")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8258,7 +7664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd1aeaf-0716-4d0f-8b88-a1c1dd4b621a")
-		(property "Reference" "R21"
+		(property "Reference" "R28"
 			(at 222.25 90.1699 0)
 			(effects
 				(font
@@ -8312,7 +7718,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R21")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8386,6 +7792,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 181.61 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3109bd0-e7b8-490c-afe6-bb4f244a21e6")
+		(property "Reference" "J25"
+			(at 184.15 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 184.15 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e2cbd92-c521-4938-acc3-1a5e5e4fccef")
+		)
+		(instances
+			(project "ScrapheapPicoPCB"
+				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
+					(reference "J25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:C")
 		(at 214.63 143.51 0)
 		(unit 1)
@@ -8395,7 +7868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f52db1dc-0223-4ae1-8238-e63534f69e48")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 217.17 139.7062 0)
 			(effects
 				(font
@@ -8476,7 +7949,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -8626,7 +8099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcf529ca-12a6-4264-8fa0-62589a4dd4e2")
-		(property "Reference" "R18"
+		(property "Reference" "R25"
 			(at 222.25 29.2099 0)
 			(effects
 				(font
@@ -8680,7 +8153,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R18")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8748,6 +8221,73 @@
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 181.61 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe8b307e-9539-4bac-9d71-65887430bbbb")
+		(property "Reference" "J16"
+			(at 184.15 25.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01"
+			(at 184.15 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afa5ca10-13fb-4ba2-a58f-903542720e3e")
+		)
+		(instances
+			(project "ScrapheapPicoPCB"
+				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
+					(reference "J16")
 					(unit 1)
 				)
 			)
