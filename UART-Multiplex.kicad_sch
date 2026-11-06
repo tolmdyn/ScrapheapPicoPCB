@@ -2728,7 +2728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0413421b-3bca-4fff-84f5-58b65591996a")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR060"
 			(at 219.71 30.48 0)
 			(effects
 				(font
@@ -2779,7 +2779,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR043")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -2796,7 +2796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f837738-a248-4a50-aa69-db6bc4946b9c")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR052"
 			(at 170.18 66.04 0)
 			(effects
 				(font
@@ -2847,7 +2847,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR072")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -2863,7 +2863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225ed0c8-c001-424e-83fd-47310b272495")
-		(property "Reference" "R32"
+		(property "Reference" "R28"
 			(at 231.14 69.8499 0)
 			(effects
 				(font
@@ -2917,7 +2917,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R32")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2933,7 +2933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23afcff2-e139-47d0-aab2-9685364e4a6e")
-		(property "Reference" "R27"
+		(property "Reference" "R23"
 			(at 222.25 69.8499 0)
 			(effects
 				(font
@@ -2987,7 +2987,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R27")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -3003,7 +3003,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26401064-b53b-4ed5-a012-b93a2710563c")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR034"
 			(at 74.93 95.25 0)
 			(effects
 				(font
@@ -3054,7 +3054,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR040")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -3070,7 +3070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27dac2a4-6a49-48d9-933c-fb06686fb69d")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR063"
 			(at 219.71 91.44 0)
 			(effects
 				(font
@@ -3121,7 +3121,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR046")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3137,7 +3137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a05f7bb-afc8-4c4e-931a-dd680fd6d5d0")
-		(property "Reference" "J17"
+		(property "Reference" "J14"
 			(at 184.15 34.2899 0)
 			(effects
 				(font
@@ -3197,7 +3197,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J17")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b5c1b92-9654-4eba-bd91-feaf42f56d6b")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR068"
 			(at 228.6 91.44 0)
 			(effects
 				(font
@@ -3264,7 +3264,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR051")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3280,7 +3280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33dd8247-7bc0-4e97-bce8-cac488d704a6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR061"
 			(at 219.71 50.8 0)
 			(effects
 				(font
@@ -3331,7 +3331,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR044")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3347,7 +3347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4118338f-ad33-4d2d-b194-3ce013ca924f")
-		(property "Reference" "R30"
+		(property "Reference" "R26"
 			(at 231.14 29.2099 0)
 			(effects
 				(font
@@ -3401,7 +3401,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R30")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3418,7 +3418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44065cb5-0487-4b1a-9654-8b2cc672204d")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR047"
 			(at 180.34 39.37 0)
 			(effects
 				(font
@@ -3469,7 +3469,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR067")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -3485,7 +3485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "445d9d6e-0987-46af-9af7-677c6584fce2")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR064"
 			(at 219.71 111.76 0)
 			(effects
 				(font
@@ -3536,7 +3536,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR047")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -3746,7 +3746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ee4ecdb-8b20-4a22-9910-14306ceb79e4")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 58.42 77.47 0)
 			(effects
 				(font
@@ -3797,7 +3797,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4007,7 +4007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54fc9c5b-0d94-4f0d-b50d-d6b639590c9f")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR058"
 			(at 214.63 138.43 0)
 			(effects
 				(font
@@ -4058,7 +4058,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR041")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4073,7 +4073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "597b59df-0d59-42ac-b1d0-eb91f247ad9b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR041"
 			(at 99.06 63.5 0)
 			(effects
 				(font
@@ -4123,7 +4123,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR036")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4140,7 +4140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5984e086-3fd2-4d8e-b090-c935cddfcadb")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR053"
 			(at 180.34 73.66 0)
 			(effects
 				(font
@@ -4191,7 +4191,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR073")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4207,7 +4207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0db9c7-e811-4052-add8-d4f4647baa42")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 58.42 116.84 0)
 			(effects
 				(font
@@ -4257,7 +4257,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4384,7 +4384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6601037f-4d40-44fb-ad08-c0c1ea666cdc")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR037"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -4434,7 +4434,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR032")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4450,7 +4450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b5898b-b92c-44d1-8561-dd08edc96826")
-		(property "Reference" "R31"
+		(property "Reference" "R27"
 			(at 231.14 49.5299 0)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R31")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4519,7 +4519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6eb9d870-00aa-4976-b2c5-241c8d8c1fa0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR039"
 			(at 87.63 63.5 0)
 			(effects
 				(font
@@ -4569,7 +4569,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR034")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4585,7 +4585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ef0ae03-bbcc-4459-9a04-ee94a7028ae6")
-		(property "Reference" "J19"
+		(property "Reference" "J16"
 			(at 184.15 57.1499 0)
 			(effects
 				(font
@@ -4645,7 +4645,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J19")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -4661,7 +4661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77b3587f-e905-473b-bc9e-26a80fd23a8e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR036"
 			(at 76.2 55.88 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4729,7 +4729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80f50ad1-873e-4837-9151-24416e4b9fdc")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR057"
 			(at 180.34 96.52 0)
 			(effects
 				(font
@@ -4780,7 +4780,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR078")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4796,7 +4796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "877b9e68-262d-4d8a-bb3f-19ffabcef689")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR069"
 			(at 228.6 111.76 0)
 			(effects
 				(font
@@ -4847,7 +4847,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR052")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -4863,7 +4863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8945e065-7839-4c58-8b86-f2ee005361b3")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR044"
 			(at 129.54 95.25 0)
 			(effects
 				(font
@@ -4914,7 +4914,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR062")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -4930,7 +4930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e0610d3-0361-4596-9edc-70b96048fa46")
-		(property "Reference" "J21"
+		(property "Reference" "J18"
 			(at 184.15 80.0099 0)
 			(effects
 				(font
@@ -4990,7 +4990,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J21")
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -5104,7 +5104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95d61258-b607-46cd-aaca-404b64ad0a65")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR046"
 			(at 170.18 31.75 0)
 			(effects
 				(font
@@ -5155,7 +5155,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR039")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5171,7 +5171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99fda5cf-31ed-4a60-84dc-304eacd761d9")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR040"
 			(at 99.06 55.88 0)
 			(effects
 				(font
@@ -5222,7 +5222,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5335,7 +5335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d737c68-d592-407d-add2-a9842d8931cc")
-		(property "Reference" "J20"
+		(property "Reference" "J17"
 			(at 184.15 68.5799 0)
 			(effects
 				(font
@@ -5395,7 +5395,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J20")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -5411,7 +5411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6899e90-e4fa-453c-83fd-b590a3f47e0c")
-		(property "Reference" "R29"
+		(property "Reference" "R25"
 			(at 222.25 110.4899 0)
 			(effects
 				(font
@@ -5465,7 +5465,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R29")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5482,7 +5482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c455e0-baaf-4674-9d78-cd0e076a4b20")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR051"
 			(at 180.34 62.23 0)
 			(effects
 				(font
@@ -5533,7 +5533,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR071")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5550,7 +5550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8659571-e1ab-44a2-b4a1-1beb015d0f99")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR056"
 			(at 170.18 88.9 0)
 			(effects
 				(font
@@ -5601,7 +5601,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR077")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5715,7 +5715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "affa5770-db69-49cf-a75b-ed22ddbe4096")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR054"
 			(at 170.18 77.47 0)
 			(effects
 				(font
@@ -5766,7 +5766,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR074")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5782,7 +5782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4edd4b3-569a-4140-aef4-ad1b5776d1e2")
-		(property "Reference" "J18"
+		(property "Reference" "J15"
 			(at 184.15 45.7199 0)
 			(effects
 				(font
@@ -5842,7 +5842,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J18")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -5859,7 +5859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b531c8b0-be43-4e0e-a6f3-2c93ed27b539")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR050"
 			(at 170.18 54.61 0)
 			(effects
 				(font
@@ -5910,7 +5910,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR070")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5926,7 +5926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd81c827-2711-4be3-a388-a5d9a7a3ba22")
-		(property "Reference" "R34"
+		(property "Reference" "R30"
 			(at 231.14 110.4899 0)
 			(effects
 				(font
@@ -5980,7 +5980,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R34")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6190,7 +6190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c40a582a-e40b-4412-841c-28e8475ebc9e")
-		(property "Reference" "R36"
+		(property "Reference" "R32"
 			(at 265.43 68.5799 0)
 			(effects
 				(font
@@ -6244,7 +6244,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R36")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6260,7 +6260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c45c5f9f-7a8a-496d-bfca-41d51b9a4ffd")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR059"
 			(at 214.63 157.48 0)
 			(effects
 				(font
@@ -6310,7 +6310,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR042")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6327,7 +6327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4bb1312-2156-4b16-9b7e-13be6cde45d1")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR048"
 			(at 170.18 43.18 0)
 			(effects
 				(font
@@ -6378,7 +6378,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR068")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6394,7 +6394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c62ac8a8-10df-43d8-a2fe-6f9f67b26531")
-		(property "Reference" "R26"
+		(property "Reference" "R22"
 			(at 222.25 49.5299 0)
 			(effects
 				(font
@@ -6448,7 +6448,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R26")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6464,7 +6464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6e168f5-ef53-48e8-b9c0-3d82d962147c")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR071"
 			(at 262.89 69.85 0)
 			(effects
 				(font
@@ -6515,7 +6515,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR054")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -6531,7 +6531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd2ca80e-e3f8-4026-94ac-d5699dee5760")
-		(property "Reference" "R35"
+		(property "Reference" "R31"
 			(at 256.54 68.5799 0)
 			(effects
 				(font
@@ -6585,7 +6585,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R35")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6714,7 +6714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0dd9543-4c57-4a09-b723-a6bee8384e26")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR055"
 			(at 180.34 85.09 0)
 			(effects
 				(font
@@ -6765,7 +6765,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR075")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6781,7 +6781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5719301-380d-4dee-9707-21551bd4be72")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR065"
 			(at 228.6 30.48 0)
 			(effects
 				(font
@@ -6832,7 +6832,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR048")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6848,7 +6848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d666c747-bf11-444a-a4ed-3ac10a128b2e")
-		(property "Reference" "J22"
+		(property "Reference" "J19"
 			(at 184.15 91.4399 0)
 			(effects
 				(font
@@ -6908,7 +6908,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "J22")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -6924,7 +6924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d85f0768-b332-4666-98ad-25adef25c5dc")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR035"
 			(at 74.93 100.33 0)
 			(effects
 				(font
@@ -6975,7 +6975,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR061")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6991,7 +6991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d920a2d8-cabf-43fc-b94b-982057f64237")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR067"
 			(at 228.6 71.12 0)
 			(effects
 				(font
@@ -7042,7 +7042,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR050")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -7058,7 +7058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d94b7ceb-90ae-4136-a234-01f706d072f0")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR062"
 			(at 219.71 71.12 0)
 			(effects
 				(font
@@ -7109,7 +7109,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR045")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7126,7 +7126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd292ded-a584-4217-8e28-3fc9a30e2318")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR049"
 			(at 180.34 50.8 0)
 			(effects
 				(font
@@ -7177,7 +7177,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR069")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7193,7 +7193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de91ab16-396d-447d-bbf3-2e9e33468c71")
-		(property "Reference" "R33"
+		(property "Reference" "R29"
 			(at 231.14 90.1699 0)
 			(effects
 				(font
@@ -7247,7 +7247,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R33")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -7263,7 +7263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd1aeaf-0716-4d0f-8b88-a1c1dd4b621a")
-		(property "Reference" "R28"
+		(property "Reference" "R24"
 			(at 222.25 90.1699 0)
 			(effects
 				(font
@@ -7317,7 +7317,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R28")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -7333,7 +7333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1640079-5faa-439c-9ee6-c82c7b5ac378")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR070"
 			(at 254 69.85 0)
 			(effects
 				(font
@@ -7384,7 +7384,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR053")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7400,7 +7400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3b893d3-d40e-43de-8571-7b2b19e7bcf5")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR045"
 			(at 129.54 100.33 0)
 			(effects
 				(font
@@ -7451,7 +7451,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR063")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7564,7 +7564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f77dde6f-8ae8-405f-af49-9d85a56e34a1")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR042"
 			(at 113.03 77.47 0)
 			(effects
 				(font
@@ -7615,7 +7615,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR037")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7631,7 +7631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7ae1a7e-c992-48cf-99a3-6759fbe82bc8")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR066"
 			(at 228.6 50.8 0)
 			(effects
 				(font
@@ -7682,7 +7682,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR049")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7698,7 +7698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcf529ca-12a6-4264-8fa0-62589a4dd4e2")
-		(property "Reference" "R25"
+		(property "Reference" "R21"
 			(at 222.25 29.2099 0)
 			(effects
 				(font
@@ -7752,7 +7752,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "R25")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7768,7 +7768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd4e498b-6761-4a87-a603-154920e98000")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 87.63 55.88 0)
 			(effects
 				(font
@@ -7819,7 +7819,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7835,7 +7835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffc159c0-26ff-4018-bd7c-7456eabcfd0d")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR043"
 			(at 113.03 116.84 0)
 			(effects
 				(font
@@ -7885,7 +7885,7 @@
 		(instances
 			(project "ScrapheapPicoPCB"
 				(path "/0a0126d3-e10a-434c-bfa7-71e9aafa3ff9/16ea3d32-85b5-4c49-ad55-29943e75bdae"
-					(reference "#PWR038")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)

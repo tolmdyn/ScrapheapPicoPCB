@@ -1,4 +1,4 @@
-27534212706236592
+27536006674520588
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107470,6 +107470,13 @@ test point THT pad
 0
 1
 1
+TomsCustomParts
+PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal_Labels
+Generic Phoenix Contact connector footprint for: MC_1,5/2-G-3.81; number of pins: 02; pin pitch: 3.81mm; Angled || order number: 1803277 8A 160V
+phoenix_contact connector MC_01x02_G_3.81mm
+0
+2
+2
 TomsCustomParts
 PinHeader_1x04_P2.54mm_Vertical
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
